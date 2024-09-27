@@ -1,0 +1,31 @@
+.hip-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hip-question {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .hip-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hip-pie-chart {
+    width: 40%;
+  }
+  
+  .hip-line-chart {
+    width: 55%;
+  }
+  

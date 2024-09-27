@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .poll-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .strawpoll-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e1e4e8;
+  }
+  
+  .strawpoll-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .strawpoll-logo img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .strawpoll-logo span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-bar input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 200px;
+  }
+  
+  .poll-content h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .poll-content p {
+    color: #616770;
+    margin-bottom: 20px;
+  }
+  
+  .poll-content a {
+    color: #1da1f2;
+    text-decoration: none;
+  }
+  
+  .poll-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .poll-results {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .poll-options {
+    width: 60%;
+  }
+  
+  .poll-option {
+    margin-bottom: 15px;
+  }
+  
+  .option-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .option-bar {
+    width: 100%;
+    background-color: #e1e4e8;
+    height: 12px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .bar {
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .bar-strawberry {
+    background-color: #4CAF50;
+  }
+  
+  .bar-mango {
+    background-color: #FF7043;
+  }
+  
+  .bar-banana {
+    background-color: #AB47BC;
+  }
+  
+  .bar-grape {
+    background-color: #FFEB3B;
+  }
+  
+  .bar-lemon {
+    background-color: #EF5350;
+  }
+  
+  .vote-details {
+    font-size: 14px;
+    color: #616770;
+    margin-top: 5px;
+  }
+  
+  .poll-chart {
+    width: 35%;
+  }
+  
+  .poll-chart img {
+    width: 100%;
+  }
+  
+  .total-votes {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #616770;
+  }
+  
+  .poll-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .poll-footer button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .live-results {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .back-to-poll {
+    background-color: #e1e4e8;
+    color: black;
+  }
+  
+  .share-btn {
+    background-color: #e1e4e8;
+    color: black;
+  }
+  
