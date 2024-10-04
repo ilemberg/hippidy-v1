@@ -8,6 +8,7 @@ import FbPost from './components/facebook/FbPost';
 import FastPoll from './components/fastPoll/FastPoll';
 import StrawPoll from './components/strawPoll/StrawPoll';
 import Hip1 from './components/hipTest/Hip';
+import WorldMap from './components/worldMap/WorldMap';
 const Hip = () => {
   return (
   <>
@@ -21,6 +22,7 @@ const Hip = () => {
 	<FastPoll/>
 	<StrawPoll/>
 	<Hip1/>
+	<WorldMap/>
   </>
   );
 };

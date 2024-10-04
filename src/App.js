@@ -24,4 +24,8 @@ Goal 5: UI and UX for seeing or search new questions
 2. create every main part with those assumptions
 3. only after an attempt at each sub component do i actually think about any functionality like combining or interacting in anway
 
+
+thouhgts
+What if its chaineed together. instead of forcing everything into one. its more scalable
+What does chain look like? where are
 */
