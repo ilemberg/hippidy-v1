@@ -1,12 +1,14 @@
 
 import React from 'react';
 import './App.css';
-import Hip from './features/Hip/Hip';
+import Home from './pages/Home';
+// import Hip from './features/Hip/Hip';
 
 function App() {
   return (
     <div className="App">
-        <Hip />
+        {/* <Hip /> */} 
+        <Home />  
   </div>
   );
 }
