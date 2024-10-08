@@ -10,18 +10,18 @@ const Home = () => {
   return (
     <div className="home-container">
       <Header />
-      <div className="home-wrapper "> 
+      <div className="content-wrapper"> 
         <div className="content-container">
-        <div className="left-pane">
-          <Left1 />
-          <Right1 />
+          <div className="left-pane">
+            <Left1 />
+            <Right1 />
+          </div>
+          <Feed />
+          <div className="right-pane">
+            <Right2 />
+          </div>
         </div>
-        <Feed />
-        <div className="right-pane">
-        <Right2 />
-        </div>
-      </div></div>
-      
+      </div>
       <footer className="home-footer">
         <p>&copy; 2024 My App. All rights reserved.</p>
       </footer>

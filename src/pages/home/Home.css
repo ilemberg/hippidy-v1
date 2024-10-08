@@ -1,6 +1,6 @@
 /* Home.css */
 .home-container {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Circe', sans-serif;
   background-color: #f4f5f7;
   padding: 20px;
 }
@@ -14,8 +14,10 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   font-size: 1.2em;
   max-height: 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1500;
 }
-
 
 .content-wrapper {
   display: flex;
@@ -27,10 +29,10 @@
   flex-wrap: wrap;
   gap: .5%;
   max-width: 90%;
+  min-width: 70%;
   margin: 0 auto;
-  
   margin-top: 20px;
-  
+
 }
 
 .main-content {
@@ -40,8 +42,8 @@
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   flex: 3 1 30%;
   min-width: 50%;
-
 }
+
 .right-pane {
   display: flex;
   flex-direction: column;
@@ -50,8 +52,11 @@
   max-height: 1400px;
   max-width: 20%;
   min-width: 20%;
+  margin-left: 3%;
+  position: sticky;
+  top: 80px;
+  z-index: 1000;
 }
-
 
 .left-pane {
   display: flex;
@@ -61,7 +66,12 @@
   max-height: 1400px;
   max-width: 20%;
   min-width: 20%;
+  margin-right: 3%;
+  position: sticky;
+  top: 80px;
+  z-index: 1000;
 }
+
 .sidebar {
   background-color: #ffffff;
   padding: 25px;
@@ -71,13 +81,6 @@
   max-width: 85%;
   min-width: 65%;
 }
-
-
-
-
-
-
-
 
 @media (max-width: 1024px) {
   .content-container {
