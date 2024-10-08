@@ -1,10 +1,14 @@
 import React from 'react';
+import Hip from './Hip';
 
 const Feed = () => {
   return (
     <div className="main-content">
-      <h2>Main Content</h2>
-      <p>Here is where the main content goes.</p>
+      <div className="hip-container">
+        {[...Array(10)].map((_, index) => (
+          <Hip key={index} />
+        ))}
+      </div>
     </div>
   );
 };
