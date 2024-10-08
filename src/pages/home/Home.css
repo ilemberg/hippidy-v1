@@ -1,60 +1,62 @@
-/* Home.css */
 
 .home-container {
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-    padding: 20px;
-  }
-  
-  .home-header {
-    background-color: #4267b2;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+
+.home-header {
+  background-color: #4267b2;
+  color: white;
+  padding: 2px 15px; /* Further reduce padding to make the header shorter */
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.left-pane {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1 1 200px;
+}
+
+.sidebar, .right-sidebar, .main-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 100%;
+}
+
+.main-content {
+  flex: 3 1 300px;
+}
+
+.right-sidebar {
+  flex: 1 1 200px;
+}
+
+@media (max-width: 768px) {
   .content-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 20px;
-  }
-  
-  .left-pane {
-    display: flex;
     flex-direction: column;
-    gap: 10px;
-    flex: 1 1 200px; /* Allows the left pane to shrink when needed */
+    gap: 20px;
   }
-  
-  .sidebar, .right-sidebar, .main-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex: 1 1 100%; /* Ensures they shrink properly when the screen gets smaller */
+
+  .left-pane, .right-sidebar {
+    display: none; /* Hide sidebars on smaller screens */
   }
-  
-  .main-content {
-    flex: 3 1 300px; /* Main content takes up more space, but is still flexible */
-  }
-  
-  .right-sidebar {
-    flex: 1 1 200px; /* Allows the right sidebar to shrink when needed */
-  }
-  
-  @media (max-width: 768px) {
-    .content-container {
-      flex-direction: column;
-      gap: 20px;
-    }
-  }
-  
-  .home-footer {
-    margin-top: 20px;
-    text-align: center;
-    color: #666;
-  }
-  
+}
+
+.home-footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #666;
+}

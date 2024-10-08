@@ -1,16 +1,15 @@
 import React from 'react';
 import './Home.css';
+import Header from './views/Header';
 import Left1 from './views/Left1';
-import Right1 from './views/Right1'
+import Right1 from './views/Right1';
 import Right2 from './views/Right2';
 import Feed from './views/Feed';
 
 const Home = () => {
   return (
     <div className="home-container">
-      <header className="home-header">
-        <h1>Hippidy</h1>
-      </header>
+      <Header />
       <div className="content-container">
         <div className="left-pane">
           <Left1 />
