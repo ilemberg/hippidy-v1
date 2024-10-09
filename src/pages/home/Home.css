@@ -85,22 +85,21 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-margin-bottom: -25px;
- 
+  margin-bottom: -25px;
 }
+
 .hip-question-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
- padding-left: 10px;
- padding-right: 10px;
-
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
 .hip-secondary-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .hip-profile-pic {
@@ -117,16 +116,15 @@ margin-bottom: -25px;
   color: #333;
   flex: 1;
   margin-left: 10px;
-  /* padding-top: 30px; */
 }
+
 .hip-secondary-question {
   font-size: 1em;
-  font-weight:600;
-  color:gray;
+  font-weight: 600;
+  color: gray;
   text-align: center;
   flex: 1;
   margin-left: 10px;
-  /* padding-top: 30px; */
 }
 
 .hip-expand-icon {
