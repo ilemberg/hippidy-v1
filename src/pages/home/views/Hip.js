@@ -1,39 +1,24 @@
 // Hip.js
 import React from 'react';
-import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
-import { Bar } from 'react-chartjs-2';
-
-// Register chart components
-ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
+import { FaExpandAlt } from 'react-icons/fa';
 
 const Hip = () => {
-  const data = {
-    labels: ['Trump', 'Harris', 'RFK', 'Other'],
-    datasets: [
-      {
-        data: [30, 25, 20, 25],
-        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0'],
-      },
-    ],
-  };
-
-  const options = {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      legend: {
-        display: false,
-      },
-    },
-  };
-
   return (
     <div className="hip-card">
-      <p className="hip-question">Who will you vote for president?</p>
-      <div className="hip-bar-chart">
-        <Bar data={data} options={options} />
+      <div className="hip-top-row">
+        <div className="hip-profile-pic"></div>
+      
+        <FaExpandAlt className="hip-expand-icon" />
       </div>
-      <p className="hip-total-votes">Total Votes: 100</p>
+      <div className="hip-question-row">
+       
+      <div className="hip-question">Who will you vote for president in the 2024 election?</div>
+   
+      </div>
+      <div className="hip-secondary-row">
+      <div className="hip-secondary-question">What political party do you belong to?</div>
+      <div className="hip-secondary-question">What religion do you identify with?</div>
+      </div>
     </div>
   );
 };
